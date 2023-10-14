@@ -80,13 +80,10 @@ const SaleManager = () => {
                 </td>
 
                 <td>{sales.shopName} </td>
-                <td> <text numberOfLines= {1}>
-                {sales.description}
-                  
-                  </text> </td>
+                <td>{sales.description} </td>
                 <td>{sales.address} </td>
                 <td>{sales.duration} </td>
-                <td><img height='100' src="{'http://localhost:5000/' + sales.image} " alt="" /></td>
+                <td><img height='100' src={'http://localhost:5000/' + sales.image}  alt="" /></td>
                 <td>{sales.title} </td>
 
 
